@@ -1,0 +1,96 @@
+
+
+/* GLOBAL STYLES */
+body {
+    background: #333;
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* DEMO-SPECIFIC STYLES */
+  .typewriter h1 {
+    color: rgb(212, 99, 33);
+    font-family: monospace;
+    font-size: 25px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(255, 255, 255); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 2.2s steps(40, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(212, 99, 33) }
+  }
+
+
+
+
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+
+
+  .button5 {
+    border-radius: 3px;
+    background-color: #333;
+    color: rgb(212, 99, 33);
+    border: 2px solid #555555;
+    position: absolute;
+    top: 22%; left: 38%;
+    
+  }
+  
+  .button5:hover {
+    border-radius: 3px;
+    background-color: #f1f1f1;
+    color: rgb(0, 0, 0);
+  }
+
+
+
+
+
+  .button6 {
+    border-radius: 3px;
+    background-color: #333;
+    color: rgb(212, 99, 33);
+    border: 2px solid #555555;
+    position: absolute;
+    top: 22%; right: 38%;
+  }
+  
+  .button6:hover {
+    border-radius: 3px;
+    background-color: #f1f1f1;
+    color: rgb(0, 0, 0);
+  }
+
+
+
+
+
+
