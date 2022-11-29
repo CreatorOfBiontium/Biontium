@@ -47,10 +47,10 @@
         function alertt() {
           var txt;
           if (confirm("Žádná rozehraná hra, Začít novou?")) {
-            window.open("Instrukce.html");
+            window.location.replace("Instrukce.html");;
             console.log("Otevřena nová hra");
           } else {
-            window.open("index.html")
+            window.location.replace("index.html");
             console.log("Zrušeno");
           }
 
